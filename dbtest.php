@@ -1,5 +1,5 @@
 <?php
-$dbhost = getenv("MYSQL_SERVICE_HOS");
+$dbhost = getenv("MYSQL_SERVICE_HOST");
 $dbport = getenv("MYSQL_SERVICE_PORT");
 $dbuser = getenv("MYSQL_USER");
 $dbname = getenv("MYSQL_DATABASE");
