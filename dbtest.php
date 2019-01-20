@@ -9,7 +9,7 @@ $dbrootpwd = getenv("MYSQL_ROOT_PASSWORD");;
  
 
 
-$connection = mysqli_connect($dbhost, $dbport, DB_USER, $dbrootpwd, $dbname) or die("Error " . mysqli_error($connection));
+$connection = mysqli_connect($dbhost, $dbport, $dbuser, $dbpwd, $dbname) or die("Error " . mysqli_error($connection));
 
 
 $query = "SELECT * from users" or die("Error in the consult.." . mysqli_error($connection));
