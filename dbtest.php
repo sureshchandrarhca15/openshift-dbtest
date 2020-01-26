@@ -1,6 +1,6 @@
 <?php
-$dbhost = getenv("MYSQL_SERVICE_HOST");
-$dbport = getenv("MYSQL_SERVICE_PORT");
+$dbhost = getenv("EXTERNAL_MYSQL_SERVICE_SERVICE_HOST");
+$dbport = getenv("EXTERNAL_MYSQL_SERVICE_SERVICE_PORT");
 $dbuser = 'root';
 $dbname = 'sampledb';
 $dbpwd = 'supersecret';
